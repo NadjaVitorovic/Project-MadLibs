@@ -49,35 +49,23 @@ function makeStory() {
 
 }
 
+
+//the example when explaining mad libs
 var testButton = document.getElementById("testButton");
 var statement = document.getElementById("statement");
 var example = document.getElementById("example");
 
-if (testButton){
-  testButton.addEventListener('click', tester)
+if (testButton) {
+  testButton.addEventListener('click', exampleMadLib)
 }
 
 
-function tester() {
-  console.log("button clicked");
-  statement.innerHTML = "Why did the " + example.value + " cross the road?" + "<br />" + "Now make a story!";
-}
-
-var firstTestButton = document.getElementById("firstTestButton");
-var exampleStatement = document.getElementById("exampleStatement");
-var firstExample = document.getElementById("firstExample");
-
-if (firstTestButton) {
-  firstTestButton.addEventListener('click', explanationExample)
-}
-
-
-function explanationExample() {
+function exampleMadLib() {
   console.log("clicking button");
-  exampleStatement.innerHTML = "The " + firstExample.value + " jumps over the moon.";
+  statement.innerHTML = "The " + example.value + " jumps over the moon.";
 }
 
-
+//typing the title
 var typed = $(".typed");
 
 $(function() {

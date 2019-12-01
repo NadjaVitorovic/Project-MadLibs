@@ -24,7 +24,14 @@ p {
   color: rgb(128, 128, 128);
 }
 
-
+.header-content h1 {
+  font-family: 'Poppins', helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #fff;
+}
 
 
 body, html {
