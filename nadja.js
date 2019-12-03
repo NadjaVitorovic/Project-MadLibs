@@ -39,7 +39,7 @@ function makeStory() {
                     " So he came home again and was " + emotion.value + ", because he did so want to have a real " + noun.value + "." +
                     "<br />" + "<br />" + " One evening a " + adjective.value + " " + noun1.value + " blew up. It " + pastTenseVerb.value + " and " + pastTenseVerb1.value + " all night long. It was really " + adjective1.value + "!" +
                     " In the midst of it all they heard " + verb1.value + " at the door." +
-                    " A " + noun.value + " was " + verb2.value + " outside and clamed to be a real " + noun.value + "." +
+                    " A " + noun.value + " was " + verb2.value + " outside and claimed to be a real " + noun.value + "." +
                     " The " + adjective2.value + " Queen was to find out whether this was indeed true. So she " + pastTenseVerb2.value + " to the " + place.value + " and placed a " + noun2.value + " under a 100 matresses on which the " + noun.value + " would sleep." +
                     "<br />" + "<br />" + " In the morning the Prince asked how the " + noun.value + " had slept..." +
                     " and they replied: " + adverb.value + "!!!" +
