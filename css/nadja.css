@@ -23,12 +23,6 @@ label {
 p {
   color: rgb(128, 128, 128);
 }
-#takeToPage {
-  text-align: center;
-  font-size: 25px;
-  font-family: "Press Start 2P", sans-serif;
-  padding: 15px;
-}
 
 .header-content h1 {
   font-family: 'Poppins', helvetica;
